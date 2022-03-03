@@ -12,11 +12,17 @@ public class CompanyInfo {
 		System.out.println(s);
 
 	}
+	private void companyname(String f) {
+		System.out.println(f);
+		
+
+	}
 	public static void main(String[] args) {
 		CompanyInfo cI=new CompanyInfo();
 		cI.companyName();
 		cI.companyName(1);
 		cI.companyName("Datamatics pvt. LTD.");
+		cI.companyname("Greens tech");
 	}
 
 }
